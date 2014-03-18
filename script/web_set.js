@@ -1,11 +1,15 @@
-//響應式選單
-$(document).ready(function() {
-    $(".toggle").click(function() {
-        $(this).toggleClass("active");
-        $(".box_nav").slideToggle();
-    });
-    $(".box_nav > ul > li:has(ul) > a").append('<div class="arrow-bottom"></div>');
+//圖片輪播
+$(function(){
+  SyntaxHighlighter.all();
 });
+$(window).load(function(){
+  $('.flexslider').flexslider({
+	animation: "slide",
+	start: function(slider){
+	  $('body').removeClass('loading');
+	}
+  });
+});	 
 
 // 另開視窗
 function externalLinks() { 
@@ -24,3 +28,5 @@ window.onload = externalLinks;
 $(function() {
           $("img").lazyload({placeholder : "../images/grey.gif",effect: "fadeIn"});
       });
+	  
+ 

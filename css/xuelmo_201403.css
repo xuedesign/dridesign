@@ -6,7 +6,14 @@
 
 ***********************************************************************************************
 		1 通用
-		2.首頁		
+		2.基本結構
+		  2.1 頁面頂部
+		  2.2 頁面底部
+		  2.3 網站主選單
+		3.內頁結構
+		  3.1 卡片式列表
+		  3.2 內文
+		  3.3   		
 ***********************************************************************************************/
 
 /* 1. 通用 
@@ -14,56 +21,45 @@
 ===============================================================================================*/
 body{
 	background:#FFF;
-	font-family: "微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-family:"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
 	font-size:100%;
 	line-height:20px;
-	color:#565555}
+	color:#727171}
 a:link {text-decoration:underline; color:#00adee}
 a:visited {text-decoration:underline; color:#8c8c8c}
-a:hover {text-decoration:none; color:#F50}
+a:hover {text-decoration:none; color:#fa8332}
 form{margin:0; padding:0}
 image{border:0}
 
 .clean{ clear:both}
 .hidden{ display:none}
 
-/* 2. 首頁  
+/* 2. 基本結構  
 -----------------------------------------------------------------------------------------------
 ===============================================================================================*/
 #wrap{ display:block}
-#page_top{ display:block; width:100%; height:100px; background:#F90}
-header{ display:block; width:1252px; margin:0 auto; padding-top:20px}
+
+/*2.1 頁面頂部---------------------------*/
+#page_top{ display:block; width:100%; height:80px; background:#3a3b3c}
+header{ display:block; position:relative; width:1162px; margin:0 auto; padding-top:14px}
 header h1{
 	display:block;
-	float:left;
-	width:20%;
-	border:1px solid #900; 
-    font-size:1.125em; 
-	text-align:center; 
-	line-height:40px}
-#contenter{ display:block; width:1252px; margin:0 auto; padding:17px}
-#contenter section{
-	display:block;
-	float:left;
-	width:68%;
-	min-height:300px;
-	margin-right:2%;
-	background:#9C0;
-	/*padding:150px 0;*/
-	text-align:center}
-#contenter aside{
-	display:block;
-	float:right;
-	width:30%;
-	min-height:300px;
-	background:#CCC;
-	padding:150px 0;
-	text-align:center}
+	width:219px;
+	height:52px;
+	background:url(../images/logo.png) no-repeat;
+	margin:0 auto;
+	text-indent:-9999px}
+#subtool{ display:block; position:absolute; width:65px; top:40px; right:0}
+#subtool li a{ display: block; float:left; width:23px; height:22px; text-indent:-9999px; background:url(../images/icon_subtool.png) no-repeat}
+#subtool .link_fb{ background-position: 0 0;  margin-right:10px}
+#subtool .link_fb:hover{ background-position: -23px 0}
+#subtool .link_mail{ background-position: 0 -22px}
+#subtool .link_mail:hover{ background-position: -23px -22px}
 	
-/*0.0 完美底部佈局---------------------------*/
+/*2.2 頁面底部---------------------------*/
 html, body, #wrap {height: 100%;}
 body > #wrap {height: auto; min-height: 100%;}
-#main_content{padding-bottom:50px}
+#main_content{padding-bottom:52px}
 .clearfix:after{content: ".";
     display: block;
     height: 0;
@@ -74,54 +70,66 @@ body > #wrap {height: auto; min-height: 100%;}
 * html .clearfix { height: 1%}
 .clearfix {display: block}
 /* End hide from IE-mac */
-
-/*選單*/
-nav{
-   display: block;
-   float: right;
-   width: 75%;
-   margin-bottom: 30px}
-.box_nav { display: block; width: 100%}
-.box_nav ul{ margin: 0; padding: 0}
-.box_nav li{
-	position: relative;
-    float:left;
-    color: #FFF;
-    list-style: none;
-    background: #E77C40}
-.box_nav li a {
-    display: block;        
-    padding: 15px 30px;
-    color: #FFF;
-    text-decoration: none}
-.box_nav li:hover { background: #E9905E}
-.box_nav li ul {
-    background-color: rgba(231, 124, 64, 1);
-    display: none;
-    position: absolute;
-    top: 100%}
-.box_nav li:hover ul {
-    display: block;
-    right: 0;
-    left: 0;
-    top: 100%}
-.toggle { display: none}
-.arrow-bottom {
-    position: absolute;
-    top: 25px;
-    right: 13px;
-    margin-left: 5px;
-    border-top: 4px solid #FFF;
-    border-right: 4px solid transparent;    
-    border-left: 4px solid transparent;        
-    width: 1px;
-    height: 1px}   
    
 /*版權列*/
 footer{
 	display:block;
 	width:100%;
-	height:50px;
-	margin-top: -50px;
-	background: #6CF}
-footer h3{ font-size:0.938em; text-align:center; padding-top:15px}
+	height:39px;
+	background:#3a3b3c;
+	margin-top:-52px;
+	padding-top:13px;
+	color:#fbf8f8;
+	text-align:center}
+footer p{ display:none}
+#sub_nav{display:block; width:1162px; margin:0 auto}
+#sub_nav li{ display:inline; font-size:.938em; line-height:25px;}
+#sub_nav a:link {text-decoration:none; color:#b5b1b1}
+#sub_nav a:visited {text-decoration:none; color:#b5b1b1}
+#sub_nav a:hover {text-decoration:none; color:#fa8332}
+#sub_nav .pd-right{ padding-right:70px}
+
+/*2.3 網站主選單---------------------------*/
+#contenter{ display:block; width:1162px; margin:0 auto; padding:15px 0 30px}
+nav{
+	display:block;
+	width:100%;
+	margin:22px 0;
+	padding:12px 0;
+	border-top:1px solid #ececec;
+	border-bottom:1px solid #ececec;
+	text-align:center}
+nav ul{ display: inline-block}
+nav li{
+	display: inline-block;
+    width:186px; 
+	font-size:1.25em; 
+	line-height:30px; 
+	text-align:center;
+	border-left:1px dotted #D4D4D4}
+nav li.endline{border-right:1px dotted #D4D4D4}		
+nav a:link {text-decoration:none; color:#b5b1b1}
+nav a:visited {text-decoration:none; color:#b5b1b1}
+nav a:hover { 
+    padding:2px 15px; 
+	text-decoration:none; 
+	color:#fff; 
+	background-color:#3A3B3C;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px}
+
+/* 3. 內頁結構  
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+
+/*3.1 卡片式列表---------------------------*/
+#box_masonry{ display:block; width:100%}
+.item_card{
+	display:block;
+	width:328px;
+	padding: 21px;
+	margin:0 8px 15px}
+.item_img{ display:block; width:330px}	
+.item_img img{ width:100%; /*height:auto*/}
+.blackmode{ background:#2a2b2e}	
