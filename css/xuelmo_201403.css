@@ -127,9 +127,20 @@ nav a:hover {
 #box_masonry{ display:block; width:100%}
 .item_card{
 	display:block;
-	width:328px;
-	padding: 21px;
-	margin:0 8px 15px}
-.item_img{ display:block; width:330px}	
-.item_img img{ width:100%; /*height:auto*/}
-.blackmode{ background:#2a2b2e}	
+	width:370px;
+	margin:0 8px 15px;
+	padding:0}
+.item_img{ display:block; position:relative; width:370px}	
+.item_img img, .blackmode img{ width:100%}
+.item_card h3{}
+.item_card p{font-size:0.938em;	line-height:25px; }
+
+.blackmode{
+	display:block;
+	width:328px; 
+    background:#2a2b2e; 
+	padding:21px}
+.blackmode .item_img{ display:block; width:330px}			
+.blackmode a:link {text-decoration:none; color:#fff}
+.blackmode a:visited {text-decoration:none; color:#fff}
+.blackmode a:hover {text-decoration:none; color:#fa8332}
