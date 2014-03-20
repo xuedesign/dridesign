@@ -2,60 +2,152 @@
 
 	Title: CSS for xuedeisgn
 	Author: Elmo Wu (by xuedesign studio)
-	Date: 2014/02  
+	Date: 2014/03  
 
 ***********************************************************************************************/
 
 /*1024桌機適用*/
 @media screen and (min-width:960px) and (max-width:1251px){
-header{ width:994px}
-#contenter{ width:994px}	
+#top_main{ display:block; width:960px; margin:0 auto}
+#top_main h2 a{ margin-right:0} 
+header{ display:block; width:960px; margin:0 auto}
+#contenter{ display:block; width:960px; margin:0 auto; padding:15px 0 30px}
+.item_card{
+	display:block;
+	width:300px;
+	margin:0 10px 50px;
+	padding:0}
+.item_img{ display:block; position:relative; width:300px}
+.blackmode{
+	display:block;
+	width:258px; 
+    background:#2a2b2e; 
+	padding:21px;
+	font-size:0.938em; 
+	line-height:22px}
+.blackmode .item_img{ display:block; width:258px}					
+#sub_nav{display:block; width:960px; margin:0 auto}
 }
 
 /*768平板畫面*/
 @media screen and (min-width:768px) and (max-width:959px){
-#page_top{ height:150px}	
-header, #contenter{ width:724px}
-header h1, nav{ display:block; float:none; width:100%; margin:0 auto}
-header h1{ margin-bottom:15px}
+#top_main{ display:block; width:724px; margin:0 auto}
+#top_main h2 a{ margin-right:0} 
+#top_main a:link {text-decoration:none; color:#fff; padding:0 15px}
+header{ display:block; width:724px; margin:0 auto}
+#contenter{ display:block; width:724px; margin:0 auto; padding:15px 0 30px}
+.item_card{
+	display:block;
+	width:342px;
+	margin:0 10px 50px;
+	padding:0}
+.item_img{ display:block; position:relative; width:342px}
+.blackmode{
+	display:block;
+	width:300px; 
+    background:#2a2b2e; 
+	padding:21px;
+	font-size:0.938em; 
+	line-height:22px}
+.blackmode .item_img{ display:block; width:310px}					
+#sub_nav{display:block; width:724px; margin:0 auto}
 }
 
 /*小平板與手機之間*/
 @media screen and (max-width: 767px) {
-#page_top{ height:150px}	
-header{ width:95%}
-header h1, nav, #contenter section, #contenter aside{ display:block;float:none; width:100%; margin:0 auto}
-header h1{ margin-bottom:15px}
-.box_nav li a{ padding:15px 22px; font-size:0.938em;}
-#contenter{ width:90%}
-.clean{ display: none}
+#top_main{ display:block; width:724px; margin:0 auto}
+#top_main h2 a{ margin-right:0} 
+#top_main a:link {text-decoration:none; color:#fff; padding:0 15px}
+header{ display:block; width:724px; margin:0 auto}
+#contenter{ display:block; width:724px; margin:0 auto; padding:15px 0 30px}
+.item_card{
+	display:block;
+	width:342px;
+	margin:0 10px 50px;
+	padding:0}
+.item_img{ display:block; position:relative; width:342px}
+.blackmode{
+	display:block;
+	width:300px; 
+    background:#2a2b2e; 
+	padding:21px;
+	font-size:0.938em; 
+	line-height:22px}
+.blackmode .item_img{ display:block; width:310px}					
+#sub_nav{display:block; width:724px; margin:0 auto}	
+
 }
 
 /*480手機畫面*/
 @media screen and (max-width:481px){
-#page_top{ display:block; position:relative; height:100px}
-header h1{display:block; float:right; width:30%}
-nav{ display: block; position:absolute; float:left; width:50%; z-index:99}
-.box_nav{display: none}
+#top_main, #subtool, .flex-control-nav, nav{ display:none}
+#page_top{ display:block; position:fixed; width:100%; height:60px; background:#3a3b3c; z-index:999}
+header{ display:block; position:relative; width:306px; margin:0 auto; padding-top:7px}
+header h1 a{
+	display:block;
+	position:absolute;
+	width:185px;
+	height:44px;
+	background:url(../images/logo-m.png) no-repeat;
+	text-indent:-9999px;
+	/*margin:0 auto;*/}
+#contenter{ display:block; width:306px; margin:0 auto; padding:75px 0 30px}
+.item_card{
+	display:block;
+	width:300px;
+	margin:30px auto 30px auto;
+	padding:0}
+.item_img{ display:block; position:relative; width:300px}
+.blackmode{
+	display:block;
+	width:258px; 
+    background:#2a2b2e; 
+	padding:21px;
+	font-size:0.938em; 
+	line-height:22px}
+.blackmode .item_img{ display:block; width:258px}
+#main_content{padding-bottom:68px}
+footer{
+	display:block;
+	width:100%;
+	height:55px;
+	background:#3a3b3c;
+	margin-top:-68px;
+	padding-top:13px;
+	color:#fbf8f8;
+	text-align:center}					
+#sub_nav{display:block; width:300px; margin:0 auto}	
+#sub_nav .pd-right{ padding-right:0}
+#sub_nav .copyright{ display:block; padding:5px 0 0 0; font-size:.875em}
+
+#mobile_btn{ display:block}
+.nav{display: none}
 .toggle{
-	display: inline-block;
-	background: #D8540A;
-    padding: 10px 15px;
-    color: #FFF}
-.box_nav li{ float: none}
-.box_nav li a{ padding: 10px 15px}
-.box_nav li:hover ul {
-	position: relative;
-	display: block;
-	background: transparent}
-.box_nav li:hover ul li{ background: transparent}
-.box_nav li:hover ul li a{ padding-left: 30px}
-.arrow-bottom {top: 20px}
-
-#contenter{ clear:both; width:306px}
-#contenter section, #contenter aside{float:none; width:280px; margin:0 auto}
-.clean{ display: none}
+	display:block;
+	position:absolute;
+	width:44px;
+	height:44px;
+	background:url(../images/btn_mobile-menu.png) no-repeat;
+	top:0;
+	right:0;
+	text-indent:-9999px;
+	margin-top:10px}
+.nav ul{ margin:52px 0 0 0; padding:0}	
+.nav li a{ 
+    display:block; 
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	float: none; 
+	width:100%;
+	padding:10px 15px;
+	background:#3a3b3c;
+	border-bottom:1px solid #828282;
+	font-size:1.125em;
+	line-height:25px;
+	color:#FFF;
+	text-decoration:none}
+/*.nav li a{ padding: 10px 15px}*/
+.nav li a:hover{ background:#828282; color:#fff}
+.arrow-bottom { top: 20px}
 }
-
-
-
