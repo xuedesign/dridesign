@@ -111,7 +111,7 @@ nav li{
 nav li.endline{border-right:1px dotted #D4D4D4}		
 nav a:link {text-decoration:none; color:#b5b1b1}
 nav a:visited {text-decoration:none; color:#b5b1b1}
-nav a:hover { 
+nav a:hover, nav a.navin{ 
     padding:2px 15px; 
 	text-decoration:none; 
 	color:#fff; 
@@ -208,3 +208,17 @@ nav a:hover {
 .card_titile a:link{ text-decoration:none; color:#a69f9c}
 .card_titile a:visited {text-decoration:none; color:#a69f9c}
 .card_titile a:hover {text-decoration:none; color:#fa8332}
+
+#turn_page{ display:block; width:300px; margin:20px auto}
+.btn_arrow, .page_number{ 
+    display: inline-block;
+	font-size:1em;
+	text-align:center; 
+	background:#D5D5D5; 
+	padding:5px 15px; 
+	margin:0 10px}
+.page_number{ width:55px}	
+.btn_arrow{ width:40px}
+#turn_page a:link{ text-decoration:none; color:#727171}
+#turn_page a:hover{text-decoration:none; background:#3A3B3C; color:#fff}
+

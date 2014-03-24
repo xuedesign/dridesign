@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-tw"><!-- InstanceBegin template="/Templates/temp_idesign.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="zh-tw">
 <head>
 <meta charset="utf-8" lang="zh-tw">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -8,9 +8,9 @@
 <meta name="Author" content="idesign!love設計" />
 <link rel="shortcut icon"  href="../images/favicon.ico"/>
 <link rel="icon" href="../images/favicon.ico"/>
-<!-- InstanceBeginEditable name="doctitle" -->
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>愛‧作品 / i design! Love 設計</title>
-<!-- InstanceEndEditable -->
+<!-- TemplateEndEditable -->
 <link rel="stylesheet" href="../css/reset.css" />
 <link rel="stylesheet" href="../css/xuelmo_201403.css"/>
 <link rel="stylesheet" href="../css/xuemobile.css">
@@ -23,8 +23,8 @@
 <!--[if IE 7]>
 	<script src="http://letskillie6.googlecode.com/svn/trunk/2/zh_TW.js"></script>
 <![endif]-->
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
 
 <body id="home">
@@ -33,11 +33,11 @@
      <div id="top_main">
          <h2><a href="../index.html" title="回首頁">i design! Love 設計</a></h2>
          <ul>
-            <li><a href="about.html" title="關於我">關於我</a>│</li>
-            <li><a href="album_list.html" title="愛‧作品">愛‧作品</a>│</li>
-            <li><a href="share_list.html" title="愛‧分享">愛‧分享</a>│</li>
-            <li><a href="customer.html" title="愛‧客戶">愛‧客戶</a>│</li>
-            <li><a href="contact.html" title="聯絡我">聯絡我</a></li>
+            <li><a href="../content/about.html" title="關於我">關於我</a>│</li>
+            <li><a href="../content/album_list.html" title="愛‧作品">愛‧作品</a>│</li>
+            <li><a href="../content/share_list.html" title="愛‧分享">愛‧分享</a>│</li>
+            <li><a href="../content/customer.html" title="愛‧客戶">愛‧客戶</a>│</li>
+            <li><a href="../content/contact.html" title="聯絡我">聯絡我</a></li>
          </ul>
          <span id="btn_totop"><a href="#home" title="返回頁首">返回頁首</a></span>
          <br class="clean">
@@ -59,18 +59,18 @@
                     <span class="toggle">選單</span>
                       <div class="nav">
                           <ul>
-                              <li><a href="about.html" title="關於我">關於我</a></li>
-                              <li><a href="album_list.html" title="愛‧作品">愛‧作品</a></li>
-                              <li><a href="share_list.html" title="愛‧分享">愛‧分享</a></li>
-                              <li><a href="customer.html" title="愛‧客戶">愛‧客戶</a></li>
-                              <li><a href="contact.html" title="聯絡我">聯絡我</a></li> 
+                              <li><a href="../content/about.html" title="關於我">關於我</a></li>
+                              <li><a href="../content/album_list.html" title="愛‧作品">愛‧作品</a></li>
+                              <li><a href="../content/share_list.html" title="愛‧分享">愛‧分享</a></li>
+                              <li><a href="../content/customer.html" title="愛‧客戶">愛‧客戶</a></li>
+                              <li><a href="../content/contact.html" title="聯絡我">聯絡我</a></li> 
                           </ul>
                       </div>
                 </div>  
              </header>
          </div><br>
 
-        <!-- InstanceBeginEditable name="page_main" -->
+        <!-- TemplateBeginEditable name="page_main" -->
         <div id="contenter">
           <div class="flexslider">
             <ul class="slides">
@@ -81,25 +81,18 @@
               <li><img src="../images/banner_05.jpg" alt="banner名稱"/></li>
             </ul>
           </div>
-          
-          
           <nav>
-            <!-- 網站主選單,在該單元時，請加上"class=navin" -->
+            <!-- 網站主選單 -->
             <ul>
-              <li><a href="album_list.html" title="愛‧作品" class="navin">愛‧作品</a></li>
-              <li><a href="share_list.html" title="愛‧分享">愛‧分享</a></li>
-              <li class="endline"><a href="customer.html" title="愛‧客戶">愛‧客戶</a></li>
+              <li><a href="../content/album_list.html" title="愛‧作品">愛‧作品</a></li>
+              <li><a href="../content/share_list.html" title="愛‧分享">愛‧分享</a></li>
+              <li class="endline"><a href="../content/customer.html" title="愛‧客戶">愛‧客戶</a></li>
             </ul>
           </nav>
-          
-          
           <section id="box_masonry">
             <!-- 一頁固定20則，由下方按鈕換頁 -->
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-01.jpg" alt="*"></a> 
-                  <span class="tag-marketing">行銷</span> 
-              </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-01.jpg" alt="*"></a> <span class="tag-marketing">行銷</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">復古</a>,</li>
@@ -108,17 +101,13 @@
                   <li><a href="#">色票</a>,</li>
                   <li><a href="#">藝術觀點</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>原來打字機能不只是打字</h3>
                   <p>來自華盛頓的藝術家Tyree Callahan做了一個概念性，但是很有意思的藝術作品...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-02.jpg" alt="*"></a> 
-                  <span class="tag-design">設計</span> 
-              </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-02.jpg" alt="*"></a> <span class="tag-design">設計</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">天馬行空</a>,</li>
@@ -127,17 +116,13 @@
                   <li><a href="#">藝術</a>,</li>
                   <li><a href="#">靈感</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>換個想法改變生活</h3>
                   <p>隨著年紀的增長，生活越來越忙碌的你，有多久沒有靜下心來好好看這個世界。許多人認為自己跟藝術無關...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-03.jpg" alt="*"></a> 
-                  <span class="tag-creative">創新</span> 
-              </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-03.jpg" alt="*"></a> <span class="tag-creative">創新</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">快樂</a>,</li>
@@ -147,16 +132,13 @@
                   <li><a href="#">笑</a>,</li>
                   <li><a href="#">遊戲</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>在家創造屬於你的樂園</h3>
                   <p>對於小孩子們而言，充滿遊樂設施的公園是每天下午與朋友交流、活動筋骨的不二之地...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-04.jpg" alt="*"></a> 
-                  <span class="tag-marketing">行銷</span> </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-04.jpg" alt="*"></a> <span class="tag-marketing">i‧生活</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">大圖</a>,</li>
@@ -165,16 +147,13 @@
                   <li><a href="#">穿越時空</a>,</li>
                   <li><a href="#">街道</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>連倫敦街景也搞穿越戲碼？</h3>
                   <p>這歷史悠久的城市，總是吸引著許多人前往探訪，因此藝術家Shystone...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-05.jpg" alt="*"></a> 
-                  <span class="tag-design">設計</span> </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-05.jpg" alt="*"></a> <span class="tag-marketing">i‧新聞</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">大圖</a>,</li>
@@ -182,16 +161,13 @@
                   <li><a href="#">宇宙探索</a>,</li>
                   <li><a href="#">攝影</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>原來太空人是這樣在工作！</h3>
                   <p>宇宙、外太空一直是人類不斷在探索的地方。美國國家航空既太空總署...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-06.jpg" alt="*"></a> 
-                  <span class="tag-creative">創新</span> </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-06.jpg" alt="*"></a> <span class="tag-marketing">i‧創意</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">小林章</a>,</li>
@@ -200,17 +176,13 @@
                   <li><a href="#">散步</a>,</li>
                   <li><a href="#">藝術</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>小林章散步</h3>
                   <p>日前來台演講的《字型之不思議》作者小林章先生在行程最後一天與我們上街拍字...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-07.jpg" alt="*"></a> 
-                  <span class="tag-marketing">行銷</span> 
-              </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-07.jpg" alt="*"></a> <span class="tag-marketing">行銷</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">大圖</a>,</li>
@@ -219,17 +191,13 @@
                   <li><a href="#">車</a>,</li>
                   <li><a href="#">駕駛</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>安全駕駛乘客的責任</h3>
                   <p>相信你我都有這樣的經驗，不管是在開車，還是乘車的時候...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-08.jpg" alt="*"></a> 
-                  <span class="tag-design">設計</span> 
-              </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-08.jpg" alt="*"></a> <span class="tag-design">設計</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">名人</a>,</li>
@@ -239,17 +207,13 @@
                   <li><a href="#">葡萄牙</a>,</li>
                   <li><a href="#">黑白</a>,</li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>當名人們遇上了經典卡通</h3>
                   <p>當歷史名人與經典卡通相遇時，會發生什麼有趣的靈感來呢...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-09.jpg" alt="*"></a> 
-                  <span class="tag-creative">創新</span> 
-              </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-09.jpg" alt="*"></a> <span class="tag-creative">創新</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">科技</a>,</li>
@@ -257,17 +221,13 @@
                   <li><a href="#">車</a>,</li>
                   <li><a href="#">電動駕駛</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>未來自動駕駛汽車科幻電影一般神奇</h3>
                   <p>未來有多遠？其實就在眼前！瑞典車廠商 Rinspeed 在2014...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-10.jpg" alt="*"></a> 
-                  <span class="tag-life">i.生活</span> 
-              </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-10.jpg" alt="*"></a> <span class="tag-life">i.生活</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">數位</a>,</li>
@@ -275,17 +235,13 @@
                   <li><a href="#">科技</a>,</li>
                   <li><a href="#">螢幕觸控</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>三星的未來生活想像</h3>
                   <p>智慧型手機的全面「浸」入生活，讓人總有種無「觸」不在的體驗...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-11.jpg" alt="*"></a> 
-                  <span class="tag-news">i.新聞</span> 
-              </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-11.jpg" alt="*"></a> <span class="tag-news">i.新聞</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">卡通</a>,</li>
@@ -294,17 +250,13 @@
                   <li><a href="#">紙</a>,</li>
                   <li><a href="#">設計</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>超可愛的小小時裝設計師</h3>
                   <p>小時候的我們常喜歡剪剪貼貼，什麼事情都好喜歡自己動手來...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-01.jpg" alt="*"></a> 
-                  <span class="tag-marketing">行銷</span> 
-              </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-01.jpg" alt="*"></a> <span class="tag-marketing">行銷</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">復古</a>,</li>
@@ -313,17 +265,13 @@
                   <li><a href="#">色票</a>,</li>
                   <li><a href="#">藝術觀點</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>原來打字機能不只是打字</h3>
                   <p>來自華盛頓的藝術家Tyree Callahan做了一個概念性，但是很有意思的藝術作品...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-02.jpg" alt="*"></a> 
-                  <span class="tag-design">設計</span> 
-              </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-02.jpg" alt="*"></a> <span class="tag-design">設計</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">天馬行空</a>,</li>
@@ -332,17 +280,13 @@
                   <li><a href="#">藝術</a>,</li>
                   <li><a href="#">靈感</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>換個想法改變生活</h3>
                   <p>隨著年紀的增長，生活越來越忙碌的你，有多久沒有靜下心來好好看這個世界。許多人認為自己跟藝術無關...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-03.jpg" alt="*"></a> 
-                  <span class="tag-creative">創新</span> 
-              </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-03.jpg" alt="*"></a> <span class="tag-creative">創新</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">快樂</a>,</li>
@@ -352,16 +296,13 @@
                   <li><a href="#">笑</a>,</li>
                   <li><a href="#">遊戲</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>在家創造屬於你的樂園</h3>
                   <p>對於小孩子們而言，充滿遊樂設施的公園是每天下午與朋友交流、活動筋骨的不二之地...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-04.jpg" alt="*"></a> 
-                  <span class="tag-marketing">行銷</span> </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-04.jpg" alt="*"></a> <span class="tag-marketing">i‧生活</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">大圖</a>,</li>
@@ -370,16 +311,13 @@
                   <li><a href="#">穿越時空</a>,</li>
                   <li><a href="#">街道</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>連倫敦街景也搞穿越戲碼？</h3>
                   <p>這歷史悠久的城市，總是吸引著許多人前往探訪，因此藝術家Shystone...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-05.jpg" alt="*"></a> 
-                  <span class="tag-design">設計</span> </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-05.jpg" alt="*"></a> <span class="tag-marketing">i‧新聞</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">大圖</a>,</li>
@@ -387,16 +325,13 @@
                   <li><a href="#">宇宙探索</a>,</li>
                   <li><a href="#">攝影</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>原來太空人是這樣在工作！</h3>
                   <p>宇宙、外太空一直是人類不斷在探索的地方。美國國家航空既太空總署...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-06.jpg" alt="*"></a> 
-                  <span class="tag-creative">創新</span> </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-06.jpg" alt="*"></a> <span class="tag-marketing">i‧創意</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">小林章</a>,</li>
@@ -405,17 +340,13 @@
                   <li><a href="#">散步</a>,</li>
                   <li><a href="#">藝術</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>小林章散步</h3>
                   <p>日前來台演講的《字型之不思議》作者小林章先生在行程最後一天與我們上街拍字...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-07.jpg" alt="*"></a> 
-                  <span class="tag-marketing">行銷</span> 
-              </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-07.jpg" alt="*"></a> <span class="tag-marketing">行銷</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">大圖</a>,</li>
@@ -424,17 +355,13 @@
                   <li><a href="#">車</a>,</li>
                   <li><a href="#">駕駛</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>安全駕駛乘客的責任</h3>
                   <p>相信你我都有這樣的經驗，不管是在開車，還是乘車的時候...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-08.jpg" alt="*"></a> 
-                  <span class="tag-design">設計</span> 
-              </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-08.jpg" alt="*"></a> <span class="tag-design">設計</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">名人</a>,</li>
@@ -444,16 +371,13 @@
                   <li><a href="#">葡萄牙</a>,</li>
                   <li><a href="#">黑白</a>,</li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>當名人們遇上了經典卡通</h3>
                   <p>當歷史名人與經典卡通相遇時，會發生什麼有趣的靈感來呢...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-05.jpg" alt="*"></a> 
-                  <span class="tag-design">設計</span> </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-05.jpg" alt="*"></a> <span class="tag-marketing">i‧新聞</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">大圖</a>,</li>
@@ -461,16 +385,13 @@
                   <li><a href="#">宇宙探索</a>,</li>
                   <li><a href="#">攝影</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>原來太空人是這樣在工作！</h3>
                   <p>宇宙、外太空一直是人類不斷在探索的地方。美國國家航空既太空總署...</p>
                 </a> </div>
             </div>
-            
             <div class="item_card">
-              <div class="item_img"> 
-                  <a href="album_main.html"><img src="../images/pic_sample-06.jpg" alt="*"></a> 
-                  <span class="tag-creative">創新</span> </div>
+              <div class="item_img"> <a href="../content/album_main.html"><img src="../images/pic_sample-06.jpg" alt="*"></a> <span class="tag-marketing">i‧創意</span> </div>
               <div class="card_titile">
                 <ul class="tag">
                   <li><a href="#">小林章</a>,</li>
@@ -479,21 +400,19 @@
                   <li><a href="#">散步</a>,</li>
                   <li><a href="#">藝術</a></li>
                 </ul>
-                <a href="album_main.html">
+                <a href="../content/album_main.html">
                   <h3>小林章散步</h3>
                   <p>日前來台演講的《字型之不思議》作者小林章先生在行程最後一天與我們上街拍字...</p>
                 </a> </div>
             </div>
           </section>
-          
-          
           <div id="turn_page"> <a href="#" title="上一頁" class="btn_arrow">←</a>
             <div class="page_number">1 / 999</div>
             <a href="#" title="下一頁" class="btn_arrow">→</a> <br class="clean"/>
           </div>
         </div>
         <!--// end #contenter-->
-        <!-- InstanceEndEditable -->
+        <!-- TemplateEndEditable -->
         
      </div><!--// end #main_content-->
     </div><!--// end #wrap -->    
@@ -501,8 +420,8 @@
      <footer>
         <ul id="sub_nav">
         	<li><a href="http://www.facebook.com/IDesignloveDesign" title="[另開視窗]FB粉絲頁" rel="external">FACEBOOK</a>│</li>
-        	<li><a href="about.html" title="關於我們">關於我們</a>│</li>
-        	<li><a href="contact.html" title="聯絡我們" class="pd-right">聯絡我們</a></li>
+        	<li><a href="../content/about.html" title="關於我們">關於我們</a>│</li>
+        	<li><a href="../content/contact.html" title="聯絡我們" class="pd-right">聯絡我們</a></li>
         	<li><span class="copyright">Copyright &copy;2014 i Design . All rights reserved.</span></li>
         </ul>
         <p>design：Lennon Wang；created：xuedesign studio；develop：Hsukai</p>
@@ -543,4 +462,4 @@ if($this_Top < 645){
 </script>
 <script src="../script/web_set.js"></script> 
 </body>
-<!-- InstanceEnd --></html>
+</html>
