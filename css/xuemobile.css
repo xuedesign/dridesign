@@ -27,6 +27,7 @@ header{ display:block; width:960px; margin:0 auto}
 	line-height:22px}
 .blackmode .item_img{ display:block; width:258px}					
 #sub_nav{display:block; width:960px; margin:0 auto}
+#list_customer{width:900px}
 }
 
 /*768平板畫面*/
@@ -51,6 +52,7 @@ header{ display:block; width:724px; margin:0 auto}
 	line-height:22px}
 .blackmode .item_img{ display:block; width:310px}					
 #sub_nav{display:block; width:724px; margin:0 auto}
+#wall_customer, #list_customer{width:664px}
 }
 
 /*小平板與手機之間*/
@@ -74,8 +76,8 @@ header{ display:block; width:724px; margin:0 auto}
 	font-size:0.938em; 
 	line-height:22px}
 .blackmode .item_img{ display:block; width:310px}					
-#sub_nav{display:block; width:724px; margin:0 auto}	
-
+#sub_nav{display:block; width:724px; margin:0 auto}
+#wall_customer, #list_customer{width:664px}	
 }
 
 /*480手機畫面*/
@@ -150,6 +152,18 @@ footer{
 /*.nav li a{ padding: 10px 15px}*/
 .nav li a:hover{ background:#828282; color:#fff}
 .arrow-bottom { top: 20px}
+
+#wall_customer{width:306px}
+#list_customer{ width:246px; padding:20px 30px}
+#list_customer p{
+	display:block;
+	position:absolute;
+	bottom:20px;
+	left:15px;
+	right:15x;
+	font-size:0.75em;
+	color:#7f7e7e}		
+
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),

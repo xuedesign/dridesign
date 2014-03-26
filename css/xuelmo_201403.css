@@ -14,7 +14,7 @@
 		3.內頁結構
 		  3.1 卡片式列表
 		  3.2 內文
-		  3.3   		
+		  3.3 愛客戶  		
 ***********************************************************************************************/
 
 /* 1. 通用 
@@ -221,4 +221,66 @@ nav a:hover, nav a.navin{
 .btn_arrow{ width:40px}
 #turn_page a:link{ text-decoration:none; color:#727171}
 #turn_page a:hover{text-decoration:none; background:#3A3B3C; color:#fff}
+
+/*3.2 內文---------------------------*/
+
+/*3.3 愛客戶---------------------------*/
+#box_customer{ display:block; width:100%}
+#box_customer h3{
+	display:block;
+	width:100%;
+	height:58px;
+	background: url(../images/bg_titleline.png) repeat-x;
+	font-size:1.8em;
+	color:#2E2E2E;
+	text-align:center;
+	letter-spacing:1px;
+	margin:0;
+	padding:15px 0 0 0}
+	 
+#wall_customer{ display:block; width:940px; margin:15px auto 30px auto}
+#wall_customer ul{ margin:0; padding:0}
+#wall_customer li{
+	display:inline-block;
+	width:290px;
+	margin:10px}
+#wall_customer img{ display:block; width:290px; height:138px}
+#wall_customer span{
+	display:block;
+	width: 270px;
+	height:60px;
+	background:#2E2E2E;
+	padding:10px}
+#wall_customer h4, #wall_customer p{ color:#FFF}		
+#wall_customer h4{ font-size:1.25em; line-height:22px; padding-bottom:10px}
+#wall_customer p{ font-size:0.938em; line-height:22px}	
+
+#list_customer{ 
+    display:block;
+	position:relative;
+	width:1102px;
+	background:#eee;
+	padding:20px 30px}
+#list_customer h4{
+	font-size:1.25em;
+	padding-bottom:30px; 
+    color:#848484}	
+#list_customer ul{ display:block; margin:10px 0 50px}
+#list_customer li{
+	display:inline-block;
+	width:200px;
+	margin:0 15px 20px 0;
+	font-size:0.938em;
+	line-height:22px;
+	color:#2E2E2E}
+#list_customer p{
+	display:block;
+	position:absolute;
+	bottom:20px;
+	right:30px;
+	font-size:0.75em;
+	color:#7f7e7e}		
+
+
+
 
