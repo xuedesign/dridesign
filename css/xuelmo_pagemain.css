@@ -1,0 +1,95 @@
+/**********************************************************************************************
+
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Date: 2014/03  
+
+***********************************************************************************************
+		1 通用
+		2.頁面結構 
+		   2.1 關於i
+		   2.2 文章內容
+		   2.3 聯絡i
+		     		
+***********************************************************************************************/
+
+/* 1. 通用 
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+body{
+	background: url(../images/bg_black.jpg) center top fixed;
+	font-family:"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:20px;
+	color:#727171}
+a:link {text-decoration:underline; color:#00adee}
+a:visited {text-decoration:underline; color:#8c8c8c}
+a:hover {text-decoration:none; color:#fa8332}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+
+/* 2. 頁面結構 
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+#wrap{ 
+    display:block; 
+	width:980px; 
+	margin: 15px auto 30px auto;
+	background:#FFF;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px}
+#toTop{
+	display:none;
+	position:fixed;
+	text-decoration:none;
+	bottom:20px;
+	right:20px;
+	overflow:hidden;
+	width:51px;
+	height:51px;
+	border:none;
+	text-indent:-999px;
+	background:url(../images/btn_totop-1.png) no-repeat left top}
+#toTopHover{
+	background:url(../images/btn_totop-1.png) no-repeat left -51px;
+	width:51px;
+	height:51px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0)}
+#toTop:active, #toTop:focus{outline:none}
+
+#container{ display:block; width:100%; margin-bottom:30px}
+header{ 
+    display:block; 
+	position:relative; 
+	width:980px;
+	height:66px;
+	background:#3a3b3c;
+	margin:0 auto; 
+	padding-top:14px}
+header h1 a{
+	display:block;
+	width:219px;
+	height:52px;
+	background:url(../images/logo.png) no-repeat;
+	margin:0 auto;
+	text-indent:-9999px}
+header .btn_back{
+	display:block;
+	position:absolute;
+	width:37px;
+	height:37px;
+	top:26px;
+	right:30px;
+	background:url(../images/btn_back.png) no-repeat;
+	text-indent:-9999px}
+header .btn_back:hover{background:url(../images/btn_back.png) 0 -37px no-repeat}
+

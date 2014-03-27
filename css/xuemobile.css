@@ -33,7 +33,8 @@ header{ display:block; width:960px; margin:0 auto}
 /*768平板畫面*/
 @media screen and (min-width:768px) and (max-width:959px){
 #top_main{ display:block; width:724px; margin:0 auto}
-#top_main h2 a{ margin-right:0} 
+#top_main h2 a{ margin-right:0}
+#top_main li{ display:inline; font-size:1em; line-height:25px; letter-spacing:1px}	 
 #top_main a:link {text-decoration:none; color:#fff; padding:0 15px}
 header{ display:block; width:724px; margin:0 auto}
 #contenter{ display:block; width:724px; margin:0 auto; padding:15px 0 30px}
@@ -59,6 +60,7 @@ header{ display:block; width:724px; margin:0 auto}
 @media screen and (max-width: 767px) {
 #top_main{ display:block; width:724px; margin:0 auto}
 #top_main h2 a{ margin-right:0} 
+#top_main li{ display:inline; font-size:1em; line-height:25px; letter-spacing:1px}	 
 #top_main a:link {text-decoration:none; color:#fff; padding:0 15px}
 header{ display:block; width:724px; margin:0 auto}
 #contenter{ display:block; width:724px; margin:0 auto; padding:15px 0 30px}
@@ -153,6 +155,7 @@ footer{
 .nav li a:hover{ background:#828282; color:#fff}
 .arrow-bottom { top: 20px}
 
+#box_customer h3{font-size:1.313em; height:48px; padding:25px 0 0 0 }
 #wall_customer{width:306px}
 #list_customer{ width:246px; padding:20px 30px}
 #list_customer p{
@@ -163,7 +166,6 @@ footer{
 	right:15x;
 	font-size:0.75em;
 	color:#7f7e7e}		
-
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
