@@ -170,12 +170,4 @@ footer{
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 screen and (min--moz-device-pixel-ratio: 2)
-{
-header h1 a{
-	display:block;
-	position:absolute;
-	width:185px;
-	height:44px;
-	background:url(../images/logo-m@2x.png) no-repeat;
-	text-indent:-9999px}
-}
+{ header h1 a{background:url(../images/logo-m@2x.png) no-repeat; background-size:185px 44px} }

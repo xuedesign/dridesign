@@ -66,7 +66,6 @@ image{border:0}
 	filter:alpha(opacity=0)}
 #toTop:active, #toTop:focus{outline:none}
 
-#container{ display:block; width:100%; margin-bottom:30px}
 header{ 
     display:block; 
 	position:relative; 
@@ -92,4 +91,60 @@ header .btn_back{
 	background:url(../images/btn_back.png) no-repeat;
 	text-indent:-9999px}
 header .btn_back:hover{background:url(../images/btn_back.png) 0 -37px no-repeat}
+
+#container{ display:block; width:800px; margin:50px auto; padding-bottom:50px}
+#container h2{
+	display:block;
+	float:left;
+	width:50%;
+	font-size:1.8em;
+	line-height:35px;
+	color:#313131}
+#btn_social{
+	display:block;
+	float:right;
+	width:50%}
+#btn_social .btn_gplus, #btn_social .btn_fb, #btn_social .page_view{ display: block; float:right}
+#btn_social .btn_gplus{width:80px}
+#btn_social .btn_fb{ width:80px}
+#btn_social .page_view{ 
+    background:#616060; 
+	font-size:0.813em; 
+	color:#FFF;
+	letter-spacing:1px; 
+	padding:0 1px 0 8px;
+	border:1px solid #3a3b3c}
+#btn_social .page_view span{ 
+    background:#FFF; 
+	color:#3a3b3c; 
+	margin-left:10px;
+	padding:0 10px}		
+#container h3{
+	font-size:1.188em;
+	color:#fa8332;
+	line-height:40px}
+#aboutme h3{ font-weight:normal}	
+#container p{
+	font-size:1em;
+	line-height:28px;
+	color:#727171}
+#container img{ height: auto; max-width: 100%}	
+#container .logo_about{margin:15px 0 30px 0}
+#container .pic_right{ display:block; float:right; margin:0 0 20px 20px}
+#container .pic_left{ display:block; float:left; margin:0 20px 20px 0}	
+#container .idesign_work{ display:block; margin:10px 0}
+#container .idesign_work li{
+	display: block;
+	float:left;
+	width:400px;
+	height:110px;
+	text-align:center;
+	text-shadow: 1px 1px 0px #fff;
+	padding-top:30px}
+#container .idesign_work h4{ font-size:1em; line-height:35px; color:#908a8a}
+#container .idesign_work p{ font-size:0.938em; line-height:22px; color:#fa8332}
+#container .slogan{ font-size:1.375em; font-weight:normal; text-align:center; margin-top:40px}
+#container .slogan span{ color:#727171}	
+btn_contact
+
 
