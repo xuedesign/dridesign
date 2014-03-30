@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-tw"><!-- InstanceBegin template="/Templates/temp_content.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="zh-tw">
 <head>
 <meta charset="utf-8" lang="zh-tw">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -8,9 +8,9 @@
 <meta name="Author" content="idesign!love設計" />
 <link rel="shortcut icon"  href="../images/favicon.ico"/>
 <link rel="icon" href="../images/favicon.ico"/>
-<!-- InstanceBeginEditable name="doctitle" -->
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>關於i / i design! Love 設計</title>
-<!-- InstanceEndEditable -->
+<!-- TemplateEndEditable -->
 <link rel="stylesheet" href="../css/reset.css" />
 <link rel="stylesheet" href="../css/xuelmo_pagemain.css"/>
 <link rel="stylesheet" href="../css/xuemobile_pagemain.css"/>
@@ -23,8 +23,8 @@
 <!--[if IE 7]>
 	<script src="http://letskillie6.googlecode.com/svn/trunk/2/zh_TW.js"></script>
 <![endif]-->
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
 
 <body id="home">
@@ -36,7 +36,7 @@
      </header>
      
      
-     <!-- InstanceBeginEditable name="page_main" -->
+     <!-- TemplateBeginEditable name="page_main" -->
      <section id="container">
        <h2>關於 i</h2>
        <div id="btn_social">
@@ -95,11 +95,11 @@
          </ul>
          <br class="clean" />
          <h3 class="slogan">有了<span>愛，設計</span>讓世界變得更美好</h3>
-         <a href="contact.html" title="聯絡我們" class="btn_contact">聯絡我們</a> </section>
+         <a href="../content/contact.html" title="聯絡我們" class="btn_contact">聯絡我們</a> </section>
      </section>
      <!--// end #container -->
      
-     <!-- InstanceEndEditable -->    
+     <!-- TemplateEndEditable -->    
     <p class="hidden">design：Lennon Wang；created：xuedesign studio；develop：Hsukai</p>  
   </div><!--// end #wrap -->    
 
@@ -114,4 +114,4 @@ $().UItoTop({ easingType: 'easeOutQuart' }); });
 <script src="../script/web_set.js"></script>
 <script src="https://apis.google.com/js/plusone.js"></script>
 </body>
-<!-- InstanceEnd --></html>
+</html>

@@ -131,7 +131,8 @@ header .btn_back:hover{background:url(../images/btn_back.png) 0 -37px no-repeat}
 #container img{ height: auto; max-width: 100%}	
 #container .logo_about{margin:15px 0 30px 0}
 #container .pic_right{ display:block; float:right; margin:0 0 20px 20px}
-#container .pic_left{ display:block; float:left; margin:0 20px 20px 0}	
+#container .pic_left{ display:block; float:left; margin:0 20px 20px 0}
+#container .pic_why{margin-right:80px}	
 #container .idesign_work{ display:block; margin:10px 0}
 #container .idesign_work li{
 	display: block;
@@ -145,6 +146,34 @@ header .btn_back:hover{background:url(../images/btn_back.png) 0 -37px no-repeat}
 #container .idesign_work p{ font-size:0.938em; line-height:22px; color:#fa8332}
 #container .slogan{ font-size:1.375em; font-weight:normal; text-align:center; margin-top:40px}
 #container .slogan span{ color:#727171}	
-btn_contact
+#container .btn_contact{
+	display:block;
+	font-size:1.375em;
+	color:#fff;
+	text-decoration:none;
+	text-align:center;
+	letter-spacing:1px;
+	width:132px;
+	margin:35px auto 0 auto;
+	padding:10px 20px;
+	border:1px solid #777777;
+	background: -webkit-gradient(linear, left top, right top, from(#888888), to(#7B7B7B));
+	background: -webkit-linear-gradient(top, #888888, #7B7B7B);
+	background: -moz-linear-gradient(top, #888888, #7B7B7B);
+	background: -o-linear-gradient(top, #888888, #7B7B7B);
+	background: -ms-linear-gradient(top, #888888, #7B7B7B);
+	background: linear-gradient(top, #888888, #7B7B7B);
+	background-color: #888888;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;}
+#container .btn_contact:hover{
+	background: -webkit-gradient(linear, left top, right top, from(#4E5051), to(#3A3B3C));
+	background: -webkit-linear-gradient(top, #4E5051, #3A3B3C);
+	background: -moz-linear-gradient(top, #4E5051, #3A3B3C);
+	background: -o-linear-gradient(top, #4E5051, #3A3B3C);
+	background: -ms-linear-gradient(top, #4E5051, #3A3B3C);
+	background: linear-gradient(top, #4E5051, #3A3B3C);
+	background-color: #4E5051}
 
 

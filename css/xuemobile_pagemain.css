@@ -8,12 +8,15 @@
 
 /*1024桌機適用*/
 @media screen and (min-width:960px) and (max-width:1251px){
-
+#wrap, header{width:960px}
 }
 
 /*768平板畫面*/
 @media screen and (min-width:768px) and (max-width:959px){
-
+#wrap, header{width:724px}
+#container{ width:644px}
+#container .pic_why{margin-right:0}	
+#container .idesign_work li{ width:320px}
 }
 
 /*小平板與手機之間*/
@@ -23,17 +26,34 @@
 
 /*480手機畫面*/
 @media screen and (max-width:481px){
-	
+#wrap, header{width:300px}
+header h1 a{
+	display:block;
+	width:185px;
+	height:44px;
+	background:url(../images/logo-m.png) no-repeat;
+	margin:0 0 0 10px;
+	text-indent:-9999px}
+#toTop, #toTopHover{ background:none}
+#container{ width:280px}
+#container h2, #btn_social{ float:none}
+#btn_social .btn_gplus, #btn_social .btn_fb, #btn_social .page_view{ display: block; float:none; margin:10px 0}
+#btn_social .page_view{ background:none; color:#616060; border:none; font-size:0.938em; padding:0}
+#btn_social .page_view span{ padding:0 5px; text-align:center; background:#616060; font-size:0.813em; color:#FFF}	
+#container h3{ font-size:1.125em; color:#fa8332; line-height:25px; padding-bottom:10px}
+#container .pic_right, #container .pic_left{ float:none; margin:10px 0}
+#container .logo_about{margin:0 auto 30px auto}
+#container .pic_why{margin:0 auto 30px auto}	
+#container .idesign_work li{ float:none; width:280px; margin:0 auto}
+#container .idesign_work p{ font-size:0.813em; line-height:22px; color:#fa8332}
+#container .slogan{ font-size:1.125em; margin-top:20px}	
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 screen and (min--moz-device-pixel-ratio: 2)
 {
 header h1 a{
-	display:block;
-	position:absolute;
-	width:185px;
-	height:44px;
 	background:url(../images/logo-m@2x.png) no-repeat;
+	background-size:185px 44px;
 	text-indent:-9999px}
 }
