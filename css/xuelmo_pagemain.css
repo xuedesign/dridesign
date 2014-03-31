@@ -92,14 +92,22 @@ header .btn_back{
 	text-indent:-9999px}
 header .btn_back:hover{background:url(../images/btn_back.png) 0 -37px no-repeat}
 
+/*2.1 關於i---------------------------*/
 #container{ display:block; width:800px; margin:50px auto; padding-bottom:50px}
-#container h2{
+#container .title_about{
 	display:block;
 	float:left;
 	width:50%;
 	font-size:1.8em;
 	line-height:35px;
 	color:#313131}
+#container .title_page{
+	display:block;
+	font-size:1.5em;
+	line-height:35px;
+	color:#313131;
+	padding-bottom:10px}
+		
 #btn_social{
 	display:block;
 	float:right;
@@ -123,15 +131,18 @@ header .btn_back:hover{background:url(../images/btn_back.png) 0 -37px no-repeat}
 	font-size:1.188em;
 	color:#fa8332;
 	line-height:40px}
+	
 #aboutme h3{ font-weight:normal}	
 #container p{
 	font-size:1em;
 	line-height:28px;
 	color:#727171}
-#container img{ height: auto; max-width: 100%}	
+#page_main p{ margin-bottom:30px}
+	
+#container img{ height: auto; max-width: 100%; margin-bottom:15px}	
 #container .logo_about{margin:15px 0 30px 0}
-#container .pic_right{ display:block; float:right; margin:0 0 20px 20px}
-#container .pic_left{ display:block; float:left; margin:0 20px 20px 0}
+#container .pic_right{ display:block; float:right; margin-left:20px}
+#container .pic_left{ display:block; float:left; margin-right:20px}
 #container .pic_why{margin-right:80px}	
 #container .idesign_work{ display:block; margin:10px 0}
 #container .idesign_work li{
@@ -175,5 +186,47 @@ header .btn_back:hover{background:url(../images/btn_back.png) 0 -37px no-repeat}
 	background: -ms-linear-gradient(top, #4E5051, #3A3B3C);
 	background: linear-gradient(top, #4E5051, #3A3B3C);
 	background-color: #4E5051}
+	
+/*2.2 文章內文---------------------------*/
+#page_tool{ display:block; padding-bottom:10px}
+.page_info .time, .page_info .tag{ display:block; float:left; font-size:0.938em; line-height:25px}
+.page_info .tag li{ display:inline-block}
+.page_info .tag a:link {text-decoration:none; color:#a69f9c}
+.page_info .tag a:visited {text-decoration:none; color:#a69f9c}
+.page_info .tag a:hover {text-decoration:underline; color:#fa8332}
+
+#page_turn{ display:block; width:100%; padding:30px 0}
+.btn_previous, .btn_next{ display: block; width:375px; padding:15px 10px; font-size:1em; line-height:22px}
+.btn_previous{ float:left}
+.btn_next{ float:right}
+.arrow_left; .arrow_right{ display: block; width:20px; text-align:center}
+.arrow_left{ margin-right:15px}
+.arrow_right{ float:right; margin-left:15px}
+.title_left, .title_right{ display:block; width:335px}
+.arrow_left, .title_left{ float:left}
+.arrow_right, .title_right{ float:right; text-align:right}
+#page_turn a:link, #page_turn a:visited{
+	color:#FFF;
+	text-decoration:none;
+    background: -webkit-gradient(linear, left top, right top, from(#888888), to(#7B7B7B));
+	background: -webkit-linear-gradient(top, #888888, #7B7B7B);
+	background: -moz-linear-gradient(top, #888888, #7B7B7B);
+	background: -o-linear-gradient(top, #888888, #7B7B7B);
+	background: -ms-linear-gradient(top, #888888, #7B7B7B);
+	background: linear-gradient(top, #888888, #7B7B7B);
+	background-color: #888888;}
+#page_turn a:hover {
+	color:#FFF;
+	text-decoration:none;
+	background: -webkit-gradient(linear, left top, right top, from(#4E5051), to(#3A3B3C));
+	background: -webkit-linear-gradient(top, #4E5051, #3A3B3C);
+	background: -moz-linear-gradient(top, #4E5051, #3A3B3C);
+	background: -o-linear-gradient(top, #4E5051, #3A3B3C);
+	background: -ms-linear-gradient(top, #4E5051, #3A3B3C);
+	background: linear-gradient(top, #4E5051, #3A3B3C);
+	background-color: #4E5051}
+
+
+/*2.3 聯絡i---------------------------*/	
 
 

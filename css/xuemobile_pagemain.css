@@ -17,6 +17,8 @@
 #container{ width:644px}
 #container .pic_why{margin-right:0}	
 #container .idesign_work li{ width:320px}
+.btn_previous, .btn_next{ width:297px}
+.title_left, .title_right{ width:257px}
 }
 
 /*小平板與手機之間*/
@@ -35,7 +37,7 @@ header h1 a{
 	margin:0 0 0 10px;
 	text-indent:-9999px}
 #toTop, #toTopHover{ background:none}
-#container{ width:280px}
+#container{ width:280px; margin-top:15px}
 #container h2, #btn_social{ float:none}
 #btn_social .btn_gplus, #btn_social .btn_fb, #btn_social .page_view{ display: block; float:none; margin:10px 0}
 #btn_social .page_view{ background:none; color:#616060; border:none; font-size:0.938em; padding:0}
@@ -46,7 +48,11 @@ header h1 a{
 #container .pic_why{margin:0 auto 30px auto}	
 #container .idesign_work li{ float:none; width:280px; margin:0 auto}
 #container .idesign_work p{ font-size:0.813em; line-height:22px; color:#fa8332}
-#container .slogan{ font-size:1.125em; margin-top:20px}	
+#container .slogan{ font-size:1.125em; margin-top:20px}
+#page_tool{ padding-bottom:0}
+.page_info .tag{ padding-bottom:15px}
+.btn_previous, .btn_next{ width:260px; margin:0 auto 10px auto; line-height:25px}
+.title_left, .title_right{ display:block; width:210px}	
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
