@@ -208,16 +208,6 @@ header .btn_back:hover{background:url(../images/btn_back.png) 0 -37px no-repeat}
 #page_turn a:link, #page_turn a:visited{
 	color:#FFF;
 	text-decoration:none;
-    background: -webkit-gradient(linear, left top, right top, from(#888888), to(#7B7B7B));
-	background: -webkit-linear-gradient(top, #888888, #7B7B7B);
-	background: -moz-linear-gradient(top, #888888, #7B7B7B);
-	background: -o-linear-gradient(top, #888888, #7B7B7B);
-	background: -ms-linear-gradient(top, #888888, #7B7B7B);
-	background: linear-gradient(top, #888888, #7B7B7B);
-	background-color: #888888;}
-#page_turn a:hover {
-	color:#FFF;
-	text-decoration:none;
 	background: -webkit-gradient(linear, left top, right top, from(#4E5051), to(#3A3B3C));
 	background: -webkit-linear-gradient(top, #4E5051, #3A3B3C);
 	background: -moz-linear-gradient(top, #4E5051, #3A3B3C);
@@ -225,8 +215,147 @@ header .btn_back:hover{background:url(../images/btn_back.png) 0 -37px no-repeat}
 	background: -ms-linear-gradient(top, #4E5051, #3A3B3C);
 	background: linear-gradient(top, #4E5051, #3A3B3C);
 	background-color: #4E5051}
-
+#page_turn a:hover {
+	color:#FFF;
+	text-decoration:none;
+	background: -webkit-gradient(linear, left top, right top, from(#888888), to(#7B7B7B));
+	background: -webkit-linear-gradient(top, #888888, #7B7B7B);
+	background: -moz-linear-gradient(top, #888888, #7B7B7B);
+	background: -o-linear-gradient(top, #888888, #7B7B7B);
+	background: -ms-linear-gradient(top, #888888, #7B7B7B);
+	background: linear-gradient(top, #888888, #7B7B7B);
+	background-color: #888888}
 
 /*2.3 聯絡i---------------------------*/	
+#box_contact{ display:block; width:100%}
+#box_contact h3{
+	display:block;
+	width:100%;
+	height:58px;
+	background: url(../images/bg_titleline.png) repeat-x;
+	font-size:1.8em;
+	color:#2E2E2E;
+	text-align:center;
+	letter-spacing:1px;
+	margin:0;
+	padding:15px 0 0 0}
+#box_contact .pic_contact{ display:block; float:left; margin:10px 20px 0 0}
+#box_contact h4{ font-size:1.125em; color:#cf7448; font-weight: normal; padding-top:15px}
+#box_contact .txt_about{ font-size:0.938em; line-height:22px; color:#cf7448; padding:20px 0 10px; color:#727171}
+#box_contact .contact_info{ display:block; position:relative}
+#box_contact .contact_info p{ font-size:0.938em; line-height:25px; color:#cf7448}
+#box_contact .contact_info span{ display:block; position:absolute; bottom:0; right:0}
+#box_map{ display:block; float:right; width:430px; height:266px; margin-top:20px}
+#box_title{ display:block; padding-top:170px}
+#box_title .slogan-02{ font-size:1em; font-weight:normal; padding-bottom:30px}
+#box_title .slogan-02 span{ color:#727171}
+#box_title .title_messages{
+	display:block;
+	background:url(../images/icon_message.png) no-repeat;
+	padding-left:70px;
+	height:55px;
+	font-size:1em;
+	font-weight:bold;
+	color:#727171}
 
+#box_messages p{
+	font-size:0.938em;
+	line-height:22px;
+	color:#cf7448}
+#form_massage{ 
+   display:block; 
+   width:770px; 
+   margin:10px 0 20px 0;
+   font-size:.938em;
+   line-height:22px}	
+#form_massage .item_01, #form_massage .item_02, #form_massage .item_03, #form_massage .item_04, #form_massage .item_05{
+	display: block;
+	width:100%;
+	padding:10px 15px}
+#form_massage .item_01, #form_massage .item_03, #form_massage .item_05{ background:#F0F0F0}
+#form_massage .item_02, #form_massage .item_04{ background:#F7F7F7}
+.pot_red{ color:#cf7448; padding-right:5px}
+#form_massage .txt_area, #form_massage .txt_area02{
+	padding:5px 10px;
+	margin-left:15px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:1px solid #999;
+	font-size:1em;
+	line-height:25px}
+#form_massage .txt_area:focus, #form_massage .txt_area02:focus{
+	-webkit-box-shadow: 0 0 5px #cf7448;
+	-moz-box-shadow: 0 0 5px #cf7448;
+	-o-box-shadow: 0 0 5px #cf7448;
+	-ms-box-shadow: 0 0 5px #cf7448;
+	box-shadow: 0 0 5px #cf7448}	
+	
+#form_massage .w150{width:150px}
+#form_massage .w350{width:440px}
+#form_massage .radio-01{ margin:0 8px 0 15px}
+#form_massage .radio-02{ margin-right:8px}	
+#form_massage .text_name, #form_massage .text_sex, #form_massage .text_mail, #form_massage .text_phone{ display:inline}
+#form_massage .text_sex{ margin-left:20px}
+#form_massage .text_phone{ margin-left:20px}
+.form_note{
+	display:block;
+	font-size:0.813em;
+	color:#cf7448;
+	line-height:18px}
+.note_right{ float:right}
+.note_left{ float:right; padding-right:275px}
+.form_title{ display:block; float:left; padding-top:30px}
+#form_massage .txt_area02{ float:left}
 
+#form_btn{ display:block; width:100%; text-align:center; padding-top:30px}
+.btn_submit, .btn_reset{ 
+    display:inline-block; 
+	width:170px; 
+	height:40px;
+	font-size:1em;
+	color:#FFF;
+	letter-spacing:1px;
+	margin:0 5px}
+.btn_submit{
+	background: -webkit-gradient(linear, left top, right top, from(#dd6e05), to(#c74c06));
+	background: -webkit-linear-gradient(top, #dd6e05, #c74c06);
+	background: -moz-linear-gradient(top, #dd6e05, #c74c06);
+	background: -o-linear-gradient(top, #dd6e05, #c74c06);
+	background: -ms-linear-gradient(top, #dd6e05, #c74c06);
+	background: linear-gradient(top, #dd6e05, #c74c06);
+	background-color: #dd6e05;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border:1px solid #a3633d}
+.btn_submit:hover{
+	cursor:pointer;
+	background: -webkit-gradient(linear, left top, right top, from(#c74c06), to(#A53F05));
+	background: -webkit-linear-gradient(top, #c74c06, #A53F05);
+	background: -moz-linear-gradient(top, #c74c06, #A53F05);
+	background: -o-linear-gradient(top, #c74c06, #A53F05);
+	background: -ms-linear-gradient(top, #c74c06, #A53F05);
+	background: linear-gradient(top, #c74c06, #A53F05);
+	background-color: #c74c06;}
+.btn_reset{
+	background: -webkit-gradient(linear, left top, right top, from(#888888), to(#7B7B7B));
+	background: -webkit-linear-gradient(top, #888888, #7B7B7B);
+	background: -moz-linear-gradient(top, #888888, #7B7B7B);
+	background: -o-linear-gradient(top, #888888, #7B7B7B);
+	background: -ms-linear-gradient(top, #888888, #7B7B7B);
+	background: linear-gradient(top, #888888, #7B7B7B);
+	background-color: #888888;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border:1px solid #838383}
+.btn_reset:hover{
+	cursor:pointer;
+	background: -webkit-gradient(linear, left top, right top, from(#4E5051), to(#3A3B3C));
+	background: -webkit-linear-gradient(top, #4E5051, #3A3B3C);
+	background: -moz-linear-gradient(top, #4E5051, #3A3B3C);
+	background: -o-linear-gradient(top, #4E5051, #3A3B3C);
+	background: -ms-linear-gradient(top, #4E5051, #3A3B3C);
+	background: linear-gradient(top, #4E5051, #3A3B3C);
+	background-color: #4E5051}		

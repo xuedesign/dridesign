@@ -19,11 +19,18 @@
 #container .idesign_work li{ width:320px}
 .btn_previous, .btn_next{ width:297px}
 .title_left, .title_right{ width:257px}
-}
-
-/*小平板與手機之間*/
-@media screen and (max-width: 767px) {
-
+.pic_contact{ width:154px; margin-bottom:0}
+#box_contact .contact_info span{ bottom:30px; left:250px}
+#box_title .slogan-02{ font-size:0.938em}
+#form_massage{ width:620px}
+#form_massage .item_01, #form_massage .item_02{ background:none; padding:0}
+#form_massage .text_name, #form_massage .text_sex, #form_massage .text_mail, #form_massage .text_phone{ 
+    display: block; width:620px; padding:10px 15px}
+#form_massage .text_sex, #form_massage .text_phone{ margin-left:0}
+.text_name, .text_mail, .item_03, item_05{ background:#F0F0F0}
+.text_sex, .text_phone, #form_massage .item_04{ background:#F7F7F7}
+.note_right, .note_left{ float:none; padding:10px 0 0 15px}
+#form_massage .w150{width:440px}
 }
 
 /*480手機畫面*/
@@ -52,7 +59,24 @@ header h1 a{
 #page_tool{ padding-bottom:0}
 .page_info .tag{ padding-bottom:15px}
 .btn_previous, .btn_next{ width:260px; margin:0 auto 10px auto; line-height:25px}
-.title_left, .title_right{ display:block; width:210px}	
+.title_left, .title_right{ display:block; width:210px}
+#box_contact h3{ color:#2E2E2E}
+.pic_contact{ width:280px; margin-bottom:0}
+#box_contact .contact_info span{bottom:-50px; left:0}
+#box_map{ width:280px; margin-top:35px}	
+.slogan-02{ margin-top:15px}
+#form_massage{ width:260px}
+#form_massage .item_01, #form_massage .item_02{ background:none; padding:0}
+#form_massage .item_03, #form_massage .item_04, #form_massage .item_05{ display:block; width:250px}
+#form_massage .text_name, #form_massage .text_sex, #form_massage .text_mail, #form_massage .text_phone{ 
+    display: block; width:250px; padding:10px 15px}
+#form_massage .text_sex, #form_massage .text_phone{ margin-left:0}
+.text_name, .text_mail, .item_03, item_05{ background:#F0F0F0}
+.text_sex, .text_phone, #form_massage .item_04{ background:#F7F7F7}
+.note_right, .note_left{ float:none; padding:10px 0 0 15px}	
+#form_massage .w150, #form_massage .w350{width:200px}
+.form_title{ padding-top:5px}
+.btn_submit, .btn_reset{ width:100px}	
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -62,4 +86,5 @@ header h1 a{
 	background:url(../images/logo-m@2x.png) no-repeat;
 	background-size:185px 44px;
 	text-indent:-9999px}
+#box_title .title_messages{ background:url(../images/icon_message@2x.png) no-repeat; background-size:55px 55px}	
 }
