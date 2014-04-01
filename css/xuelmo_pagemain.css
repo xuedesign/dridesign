@@ -268,13 +268,16 @@ header .btn_back:hover{background:url(../images/btn_back.png) 0 -37px no-repeat}
    margin:10px 0 20px 0;
    font-size:.938em;
    line-height:22px}	
-#form_massage .item_01, #form_massage .item_02, #form_massage .item_03, #form_massage .item_04, #form_massage .item_05{
+#form_massage .item_01, #form_massage .item_02, #form_massage .item_03, #form_massage .item_04, #form_massage .item_05, #form_massage .item_06{
 	display: block;
 	width:100%;
 	padding:10px 15px}
 #form_massage .item_01, #form_massage .item_03, #form_massage .item_05{ background:#F0F0F0}
-#form_massage .item_02, #form_massage .item_04{ background:#F7F7F7}
-.pot_red{ color:#cf7448; padding-right:5px}
+#form_massage .item_02, #form_massage .item_04, #form_massage .item_06{ background:#F7F7F7}
+.pot_red, .pot_gray-01, .pot_gray-02{ padding-right:5px}
+.pot_red{ color:#cf7448}
+.pot_gray-01{ color:#F7F7F7}
+.pot_gray-02{ color:#F0F0F0}
 #form_massage .txt_area, #form_massage .txt_area02{
 	padding:5px 10px;
 	margin-left:15px;
@@ -358,4 +361,6 @@ header .btn_back:hover{background:url(../images/btn_back.png) 0 -37px no-repeat}
 	background: -o-linear-gradient(top, #4E5051, #3A3B3C);
 	background: -ms-linear-gradient(top, #4E5051, #3A3B3C);
 	background: linear-gradient(top, #4E5051, #3A3B3C);
-	background-color: #4E5051}		
+	background-color: #4E5051}
+.text_hot{ font-size:0.938em; line-height:22px; color:#cf7448; margin-top:10px}
+.text_hot span{ padding:2px 4px; background:#cf7448; color:#FFF; margin-right:8px}			

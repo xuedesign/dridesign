@@ -183,6 +183,25 @@ nav a:hover, nav a.navin{
 .tag-life{ background:#F7B3BF}
 .tag-news{ background:#A8C6E1}
 .tag-idea{ background:#A8DBC9}
+.tag_title{
+	display:block;
+	width:340px;
+	margin:50px auto 30px auto;
+	font-size:1.125em; 
+	line-height:32px;
+	padding:0;
+	border:1px solid #3a3b3c;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px}
+.tag_title span{
+	padding:5px 15px;
+	margin-right:8px;
+	background:#3a3b3c;
+	color:#FFF;
+	-webkit-border-radius: 8px 0 0 8px;
+	-moz-border-radius: 8px 0 0 8px;
+	border-radius: 8px 0 0 8px}
 
 .blackmode{
 	display:block;
@@ -222,9 +241,7 @@ nav a:hover, nav a.navin{
 #turn_page a:link{ text-decoration:none; color:#727171}
 #turn_page a:hover{text-decoration:none; background:#3A3B3C; color:#fff}
 
-/*3.2 內文---------------------------*/
-
-/*3.3 愛客戶---------------------------*/
+/*3.2 愛客戶---------------------------*/
 #box_customer{ display:block; width:100%}
 #box_customer h3{
 	display:block;

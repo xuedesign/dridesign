@@ -165,8 +165,15 @@ footer{
 	left:15px;
 	right:15x;
 	font-size:0.75em;
-	color:#7f7e7e}		
-}
+	color:#7f7e7e}
+.tag_title{
+	width:280px; 
+	margin:15px auto 0; 
+	font-size:.938em; 
+	overflow:hidden; 
+	text-overflow:ellipsis;
+	white-space:nowrap}
+.tag_title span{padding:7px 15px}
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 screen and (min--moz-device-pixel-ratio: 2)
