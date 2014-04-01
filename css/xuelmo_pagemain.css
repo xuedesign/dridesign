@@ -186,6 +186,8 @@ header .btn_back:hover{background:url(../images/btn_back.png) 0 -37px no-repeat}
 	background: -ms-linear-gradient(top, #4E5051, #3A3B3C);
 	background: linear-gradient(top, #4E5051, #3A3B3C);
 	background-color: #4E5051}
+#aboutme .text_hot{ font-size:0.938em; line-height:22px; color:#fa8332; margin-top:10px}
+#aboutme .text_hot span{ padding:2px 4px; background:#fa8332; color:#FFF; margin-right:8px}			
 	
 /*2.2 文章內文---------------------------*/
 #page_tool{ display:block; padding-bottom:10px}
@@ -280,13 +282,14 @@ header .btn_back:hover{background:url(../images/btn_back.png) 0 -37px no-repeat}
 .pot_gray-02{ color:#F0F0F0}
 #form_massage .txt_area, #form_massage .txt_area02{
 	padding:5px 10px;
-	margin-left:15px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	border:1px solid #999;
 	font-size:1em;
 	line-height:25px}
+#form_massage .txt_area{margin-left:15px}
+#form_massage .txt_area02{margin-left:19px}	
 #form_massage .txt_area:focus, #form_massage .txt_area02:focus{
 	-webkit-box-shadow: 0 0 5px #cf7448;
 	-moz-box-shadow: 0 0 5px #cf7448;
@@ -362,5 +365,5 @@ header .btn_back:hover{background:url(../images/btn_back.png) 0 -37px no-repeat}
 	background: -ms-linear-gradient(top, #4E5051, #3A3B3C);
 	background: linear-gradient(top, #4E5051, #3A3B3C);
 	background-color: #4E5051}
-.text_hot{ font-size:0.938em; line-height:22px; color:#cf7448; margin-top:10px}
-.text_hot span{ padding:2px 4px; background:#cf7448; color:#FFF; margin-right:8px}			
+#form_massage .text_hot{ font-size:0.938em; line-height:22px; color:#cf7448; margin-top:10px}
+#form_massage .text_hot span{ padding:2px 4px; background:#cf7448; color:#FFF; margin-right:8px}			
