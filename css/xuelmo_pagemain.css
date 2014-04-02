@@ -27,7 +27,8 @@ a:visited {text-decoration:underline; color:#8c8c8c}
 a:hover {text-decoration:none; color:#fa8332}
 form{margin:0; padding:0}
 image{border:0}
-
+::selection { background:#3a3b3c; color:#FFF}
+::-moz-selection{ background:#3a3b3c; color:#FFF}
 .clean{ clear:both}
 .hidden{ display:none}
 
