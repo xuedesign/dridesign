@@ -287,7 +287,7 @@ header .btn_back:hover{background:url(../images/btn_back.png) 0 -37px no-repeat}
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	border:1px solid #999;
-	font-size:1em;
+	font-size:1em; 
 	line-height:25px}
 #form_massage .txt_area{margin-left:15px}
 #form_massage .txt_area02{margin-left:19px}	
