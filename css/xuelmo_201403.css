@@ -282,7 +282,13 @@ nav a:hover, nav a.navin{
 #list_customer h4{
 	font-size:1.25em;
 	padding-bottom:30px; 
-    color:#848484}	
+    color:#848484}
+#list_customer span{
+	display:block;
+	float:right;
+	font-size:0.75em;
+	line-height:22px;
+	color:#7f7e7e}		
 #list_customer ul{ display:block; margin:10px 0 50px}
 #list_customer li{
 	display:inline-block;

@@ -79,13 +79,22 @@ header{ display:block; width:724px; margin:0 auto}
 	line-height:22px}
 .blackmode .item_img{ display:block; width:310px}					
 #sub_nav{display:block; width:724px; margin:0 auto}
-#wall_customer, #list_customer{width:664px}	
+#wall_customer, #list_customer{width:664px}
+#list_customer p{
+	display:block;
+	position:absolute;
+	bottom:20px;
+	left:30px;
+	right:30px;
+	font-size:0.75em;
+	color:#7f7e7e}		
 }
 
 /*480手機畫面*/
 @media screen and (max-width:480px){
 #top_main, #top_menu, #subtool, .flex-control-nav, nav{ display:none}
-#page_top{ display:block; /*position:fixed;*/ width:100%; height:60px; background-color:#3a3b3c}
+#page_top{ display:block; /*position:fixed;*/ width:100%; height:60px; background-color:#3a3b3c; /*z-index:999; 
+-webkit-backface-visibility:hidden;*/}
 header{ display:block; position:relative; width:306px; margin:0 auto; padding-top:7px}
 header h1 a{
 	display:block;
@@ -95,7 +104,7 @@ header h1 a{
 	background:url(../images/logo-m.png) no-repeat;
 	text-indent:-9999px;
 	/*margin:0 auto;*/}
-#contenter{ display:block; width:306px; margin:0 auto; padding:20px 0 30px}
+#contenter{ display:block; width:306px; margin:0 auto; padding:/*75px 0 30px*/ 20px 0 30px}
 .item_card{
 	display:block;
 	width:300px;
@@ -136,7 +145,14 @@ footer{
 	right:0;
 	text-indent:-9999px;
 	margin-top:10px}
-.nav ul{ margin:52px 0 0 0; padding:0; border-top:1px solid #828282;}	
+.nav ul{ 
+    display:block; 
+	position:absolute; 
+	top:60px; /*margin:52px 0 0 0;*/
+	width:300px; 
+	padding:0; 
+	border-top:1px solid #828282; 
+	z-index:999}	
 .nav li a{ 
     display:block; 
 	box-sizing: border-box;
