@@ -57,13 +57,16 @@ header{ display:block; width:724px; margin:0 auto}
 #list_customer p{
 	display:block;
 	position:absolute;
+	width:445px;
 	bottom:20px;
 	left:30px;
 	right:30px;
-	text-align:right;
+	text-align:left;
 	font-size:0.75em;
 	line-height:25px;
 	color:#7f7e7e}
+#turn_page{ width:100%}	
+.page_number{ width:20px}	
 }
 
 /*小平板與手機之間*/
@@ -93,6 +96,7 @@ header{ display:block; width:724px; margin:0 auto}
 #list_customer p{
 	display:block;
 	position:absolute;
+	width:445px;
 	bottom:20px;
 	left:30px;
 	right:30px;
@@ -191,6 +195,7 @@ footer{
 	display:block;
 	clear:both;
 	position:absolute;
+	width:270px;
 	bottom:20px;
 	left:15px;
 	right:15x;
@@ -206,6 +211,9 @@ footer{
 	text-overflow:ellipsis;
 	white-space:nowrap}
 .tag_title span{padding:7px 15px}
+
+#turn_page{ width:100%}	
+.btn_arrow, .page_number{ width:40px; margin-bottom:20px}
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),

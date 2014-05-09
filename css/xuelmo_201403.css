@@ -229,7 +229,7 @@ nav a:hover, nav a.navin{
 .card_titile a:visited {text-decoration:none; color:#a69f9c}
 .card_titile a:hover {text-decoration:none; color:#fa8332}
 
-#turn_page{ display:block; width:300px; margin:20px auto}
+#turn_page{ display:block; width:95% /*300px*/; margin:20px auto; text-align:center}
 .btn_arrow, .page_number{ 
     display: inline-block;
 	font-size:1em;
@@ -237,10 +237,10 @@ nav a:hover, nav a.navin{
 	background:#D5D5D5; 
 	padding:5px 15px; 
 	margin:0 10px}
-.page_number{ width:55px}	
+.page_number{ width:30px}	
 .btn_arrow{ width:40px}
 #turn_page a:link{ text-decoration:none; color:#727171}
-#turn_page a:hover{text-decoration:none; background:#3A3B3C; color:#fff}
+#turn_page a:hover, #turn_page a.page_in{text-decoration:none; background:#3A3B3C; color:#fff}
 
 /*3.2 愛客戶---------------------------*/
 #box_customer{ display:block; width:100%}
@@ -300,9 +300,10 @@ nav a:hover, nav a.navin{
 #list_customer p{
 	display:block;
 	position:absolute;
+	width:445px;
 	bottom:20px;
 	right:30px;
-	text-align:right;
+	text-align:left;
 	font-size:0.75em;
 	line-height:25px;
 	color:#7f7e7e}		
