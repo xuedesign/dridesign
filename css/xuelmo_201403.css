@@ -234,13 +234,14 @@ nav a:hover, nav a.navin{
     display: inline-block;
 	font-size:1em;
 	text-align:center; 
-	background:#D5D5D5; 
+	background:#fff/*#D5D5D5*/; 
 	padding:5px 15px; 
-	margin:0 10px}
+	margin:0 10px;
+	border:1px solid #727171}
 .page_number{ width:30px}	
 .btn_arrow{ width:40px}
 #turn_page a:link{ text-decoration:none; color:#727171}
-#turn_page a:hover, #turn_page a.page_in{text-decoration:none; background:#3A3B3C; color:#fff}
+#turn_page a:hover, #turn_page a.page_in{text-decoration:none; background:#898A8A/*#3A3B3C*/; color:#fff}
 
 /*3.2 愛客戶---------------------------*/
 #box_customer{ display:block; width:100%}
