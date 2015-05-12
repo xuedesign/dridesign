@@ -367,4 +367,32 @@ header .btn_back:hover{background:url(../images/btn_back.png) 0 -37px no-repeat}
 	background: linear-gradient(top, #4E5051, #3A3B3C);
 	background-color: #4E5051}
 #form_massage .text_hot{ font-size:0.938em; line-height:22px; color:#cf7448; margin-top:10px}
-#form_massage .text_hot span{ padding:2px 4px; background:#cf7448; color:#FFF; margin-right:8px}			
+#form_massage .text_hot span{ padding:2px 4px; background:#cf7448; color:#FFF; margin-right:8px}
+
+/*團對介紹 2015-05-12新增*/
+#myteam{
+	display:block;
+	width:100%/*798px*/;
+	margin:30px auto 0 auto}
+#myteam li{
+	display:block;
+	float:left;
+	width:230px;
+	min-height:350px;
+	margin:0 18px 25px}
+#myteam img{ display:block; width:150px; height:150px; margin:0 auto}	
+#myteam h4{
+	font-size:1em;
+	line-height:25px;
+	color:#fa8332;
+	text-align:center;
+	padding-top:8px}
+#myteam h5{
+	font-size:.938em;
+	line-height:25px;
+	color:#727171;
+	text-align:center}
+#myteam p{
+	font-size:.938em;
+	line-height:22px;
+	padding-top:15px}			
